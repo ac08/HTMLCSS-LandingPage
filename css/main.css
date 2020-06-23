@@ -69,5 +69,19 @@ section { display: flex; }
   .profile-pic { width: 60px; height: 60px; }
   .profile-pic img { border-radius: 100px; max-width: 100%; }
 
-  .hero { background-image: url('hero.jpg'); background-position: center; height: 400px; background-size: cover; text-transform: uppercase; }
-  .hero h1 { }
+  .hero { background-image: url(hero.jpg); background-position: center; height: 400px; background-size: cover; text-transform: uppercase; }
+  .hero h1 {
+    position: relative;
+    left: -35px;
+  }
+  .hero h2 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+  }
+  .hero p {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0 10px 0;
+  }
