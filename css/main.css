@@ -250,6 +250,28 @@ footer a:hover {
 .facebook { background-image: url('../img/facebook.svg'); }
 .instagram { background-image: url('../img/instagram.svg'); }
 .pinterest { background-image: url('../img/pinterest.svg'); }
+.newsletter .link-header {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.newsletter .link-subheader {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.newsletter input {
+  border: 1px solid #364147;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.newsletter button {
+  width: 150px;
+  min-width: auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 .ps {
     padding: 40px 0;
     color: #e5e5e5;
