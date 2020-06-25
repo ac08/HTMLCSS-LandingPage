@@ -243,7 +243,8 @@ footer a:hover {
   display: block;
   width: 23px;
   height: 23px;
-  background-size: 23px 23px center;
+  background-size: 23px 23px;
+  background-position: center;
 }
 .twitter {
   background-image: url('../img/twitter.svg');
