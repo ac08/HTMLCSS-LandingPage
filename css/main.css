@@ -156,7 +156,7 @@ section { display: flex; }
   flex: 0 0 58.333333%;
   background-image: url('../img/vista.jpg');
   background-size: cover;
-  position: top center;
+  background-position: top center;
   min-height: 400px;
 }
 .full-banner-sidebar {
@@ -166,14 +166,14 @@ section { display: flex; }
   padding: 30px;
   color: #ffffff;
 }
-.full-banner-sidebar h1 {
+.full-banner-sidebar h4 {
   font-size: 40px;
   font-weight: 700;
   font-style: italic;
-  color: #637f94;
+  font: #637f94;
   line-height: 1;
 }
-.full-banner-sidebar h1:after {
+.full-banner-sidebar h4:after {
   content: "";
   width: 100px;
   height: 1px;
