@@ -170,11 +170,12 @@ section { display: flex; }
   font-size: 40px;
   font-weight: 700;
   font-style: italic;
-  font: #637f94;
+  color: #637f94;
   line-height: 1;
 }
 .full-banner-sidebar h4:after {
   content: "";
+  background-color: #faa541;
   width: 100px;
   height: 1px;
   margin: 20px auto;
